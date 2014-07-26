@@ -97,6 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Helvetica';
+}
 
 
 
