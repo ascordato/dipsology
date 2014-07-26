@@ -58,7 +58,7 @@ var map_styles = [
     },
     {
         "featureType": "road",
-        "elementType": "all",
+        "elementType": "geometry",
         "stylers": [
             {
                 "color": "#cccccc"
@@ -70,7 +70,7 @@ var map_styles = [
         "elementType": "labels",
         "stylers": [
             {
-                "visibility": "off"
+                "visibility": "on"
             }
         ]
     },
@@ -147,3 +147,9 @@ var myOptions = {
 };
 
 var map = new google.maps.Map(document.getElementById('map-container'), myOptions);
+
+var ctaLayer = new google.maps.KmlLayer({
+    url: 'https://maps.google.com/maps/ms?ie=UTF8&oe=UTF8&dg=feature&authuser=0&msa=0&output=kml&msid=200658119379711638906.0004c2ed8b2fc431e54d6'
+  });
+
+ctaLayer.setMap(map);
