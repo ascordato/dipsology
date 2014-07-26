@@ -113,8 +113,23 @@ h1 img {
     height: 750px;
 }
 
+#nav {
+    background: #ccc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+} 
 
+a {
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 25px;
+}
 
+a:hover {
+    color: #999;
+}
 
 
 
