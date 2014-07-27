@@ -18,14 +18,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    
-
-<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
-	<script type="text/javascript" src="engine1//jquery.js"></script>
-<!-- End WOWSlider.com HEAD section -->
-
-</head>
+    </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -41,12 +34,11 @@
                     <a href="http://dipsology.com/events">Events</a>
                     <a href="http://dipsology.com/blog">Blog</a>
                 </div>
-            <div id="hero-container" class="col-md-12">
-                    <div id="header" class="col-md-12">
-                            <h1><img src="http://dipsology.com/wp-content/uploads/2012/06/dipsology_logo3.png" alt="Dipsology" /></h1>
-                            <h2>Noteworthy Cocktail Destinations in New York City</h2>
-                     </div>
+            <div id="header" class="col-md-12">
+                    <h1><img src="http://dipsology.com/wp-content/uploads/2012/06/dipsology_logo3.png" alt="Dipsology" /></h1>
+                </div>
             </div>
+    
             </div>
             <div class="row">
                 <div id="map-container" class="col-md-12">
