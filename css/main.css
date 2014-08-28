@@ -119,7 +119,7 @@ h2 {
 }
 #map-container {
     background: #ccc;
-    height: 750px;
+    height: 550px;
 }
 #nav {
     background: #f0f0f0;
@@ -344,3 +344,4 @@ a:hover {
         page-break-after: avoid;
     }
 }
+
